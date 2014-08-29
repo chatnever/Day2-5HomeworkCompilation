@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		017AD04019B0346200098C8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017AD03F19B0346200098C8F /* AppDelegate.swift */; };
-		017AD04219B0346200098C8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017AD04119B0346200098C8F /* ViewController.swift */; };
 		017AD04519B0346200098C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017AD04319B0346200098C8F /* Main.storyboard */; };
 		017AD04719B0346200098C8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017AD04619B0346200098C8F /* Images.xcassets */; };
 		017AD05319B0346200098C8F /* Day2HomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017AD05219B0346200098C8F /* Day2HomeworkTests.swift */; };
+		017BB99E19B0814D00C19559 /* GenericVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017BB99D19B0814D00C19559 /* GenericVC.swift */; };
+		017BB9A019B0818600C19559 /* PhuongTrinhBacHai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017BB99F19B0818600C19559 /* PhuongTrinhBacHai.swift */; };
+		017BB9A219B0880800C19559 /* VeZigzag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017BB9A119B0880800C19559 /* VeZigzag.swift */; };
+		017BB9A419B0890C00C19559 /* VeOto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017BB9A319B0890C00C19559 /* VeOto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +31,15 @@
 		017AD03A19B0346200098C8F /* Day2Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day2Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		017AD03E19B0346200098C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		017AD03F19B0346200098C8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		017AD04119B0346200098C8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		017AD04419B0346200098C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		017AD04619B0346200098C8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		017AD04C19B0346200098C8F /* Day2HomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day2HomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		017AD05119B0346200098C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		017AD05219B0346200098C8F /* Day2HomeworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2HomeworkTests.swift; sourceTree = "<group>"; };
+		017BB99D19B0814D00C19559 /* GenericVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericVC.swift; sourceTree = "<group>"; };
+		017BB99F19B0818600C19559 /* PhuongTrinhBacHai.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhuongTrinhBacHai.swift; sourceTree = "<group>"; };
+		017BB9A119B0880800C19559 /* VeZigzag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeZigzag.swift; sourceTree = "<group>"; };
+		017BB9A319B0890C00C19559 /* VeOto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeOto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				017AD03F19B0346200098C8F /* AppDelegate.swift */,
-				017AD04119B0346200098C8F /* ViewController.swift */,
+				017BB9A119B0880800C19559 /* VeZigzag.swift */,
+				017BB99D19B0814D00C19559 /* GenericVC.swift */,
+				017BB99F19B0818600C19559 /* PhuongTrinhBacHai.swift */,
+				017BB9A319B0890C00C19559 /* VeOto.swift */,
 				017AD04319B0346200098C8F /* Main.storyboard */,
 				017AD04619B0346200098C8F /* Images.xcassets */,
 				017AD03D19B0346200098C8F /* Supporting Files */,
@@ -208,8 +217,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				017AD04219B0346200098C8F /* ViewController.swift in Sources */,
+				017BB9A419B0890C00C19559 /* VeOto.swift in Sources */,
+				017BB9A219B0880800C19559 /* VeZigzag.swift in Sources */,
+				017BB99E19B0814D00C19559 /* GenericVC.swift in Sources */,
 				017AD04019B0346200098C8F /* AppDelegate.swift in Sources */,
+				017BB9A019B0818600C19559 /* PhuongTrinhBacHai.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +407,7 @@
 				017AD05819B0346200098C8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		017AD05919B0346200098C8F /* Build configuration list for PBXNativeTarget "Day2HomeworkTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +416,7 @@
 				017AD05B19B0346200098C8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
